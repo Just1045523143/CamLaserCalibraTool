@@ -1,0 +1,26 @@
+%YAML:1.0
+
+#common parameters
+savePath: "/home/cjn/calibra_param/"
+bag_path: "/home/cjn/calibration_2019-02-18-19-50-19.bag"
+
+scan_topic_name: "/scan"
+img_topic_name: "/camera/rgb/image_raw"
+
+#camera calibration 
+model_type: PINHOLE
+camera_name: camera
+image_width: 752
+image_height: 480
+distortion_parameters:
+   k1: 0
+   k2: 0
+   p1: 0
+   p2: 0
+
+projection_parameters:
+   fx: 535.58
+   fy: 345.97
+   cx: 530.58
+   cy: 233.94
+
